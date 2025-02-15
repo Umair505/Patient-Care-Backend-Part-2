@@ -28,6 +28,7 @@ SECRET_KEY = env("SECRET_KEY", default="django-insecure-$2&feutq=+5d0ta5j@@s=(zn
 DEBUG = env.bool("DEBUG", default=True)
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://patientcare-r6lu.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
